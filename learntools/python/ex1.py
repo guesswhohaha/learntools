@@ -3,7 +3,7 @@ from learntools.core.problem import injected
 
 class ExerciseFormatTutorial(EqualityCheckProblem):
     _var = 'color'
-    _expected = 'blue'
+    _expected = 'red'
     _hint = "Your favorite color rhymes with *glue*."
     _solution = CS('color = "blue"')
 
